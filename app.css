@@ -1,0 +1,68 @@
+body {
+  text-align:center;
+  background-color: #779;
+  color: #ccd;
+  font-family: Helvetica, Arial, sans-ser if;
+}
+.button-group {
+  border:3px solid white;
+  margin:1em auto;
+  padding:1em;
+  max-width:26em;
+}
+.gap-below {
+  margin-bottom: 12px;
+}
+.button-group.dm-on {
+  border-color:white;
+}
+.button-group p {
+  padding:0;
+  margin:0;
+  font-size:160%;
+}
+.button-group div {
+  padding:0;
+  margin:0;
+  font-size:160%;
+}
+.button-group div button {
+  font-weight:bold;
+  font-size:80%;
+  width:100%;
+}
+.button-main, .button-success, .button-error, .button-warning, .button-secondary {
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+.button-main {
+  background: #446;
+  color: white;
+  font-weight:bold;
+}
+.button-success {
+  background: rgb(28, 184, 65);
+}
+.button-error {
+  background: rgb(202, 60, 60);
+}
+.button-warning {
+  background: rgb(223, 117, 20);
+}
+.button-secondary {
+  background: rgb(66, 184, 221);
+}
+.button-xsmall {
+  font-size: 70%;
+}
+.button-small {
+  font-size: 85%;
+}
+.button-large {
+  font-size: 110%;
+}
+.button-xlarge {
+  font-size: 125%;
+  font-weight:bold;
+}

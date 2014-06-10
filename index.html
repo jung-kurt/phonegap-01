@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1 maximum-scale=1 minimum-scale=1 user-scalable=0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="stylesheet" type="text/css" href="pure-min.css">
+  <link rel="stylesheet" type="text/css" href="app.css">
+</head>
+
+<body>
+  <div data-kj-page="one" style="display:block;">
+    <h1>First page</h1>
+
+    <div class="button-group">
+      <div>
+        <button class="pure-button button-main gap-below" data-kj-page-go="two">Page two</button>
+      </div>
+
+      <div>
+        <button class="pure-button button-main" data-kj-page-go="three">Page three</button>
+      </div>
+    </div>
+  </div>
+
+  <div data-kj-page="two" style="display:none;">
+    <h1>Second page</h1>
+
+    <div class="button-group">
+      <div>
+        <button class="pure-button button-main gap-below" data-kj-page-go="one">Page one</button>
+      </div>
+
+      <div>
+        <button class="pure-button button-main" data-kj-page-go="three">Page three</button>
+      </div>
+    </div>
+  </div>
+
+  <div data-kj-page="three" style="display:none;">
+    <h1>Third page</h1>
+
+    <div class="button-group">
+      <div>
+        <button class="pure-button button-main gap-below" data-kj-page-go="one">Page one</button>
+      </div>
+
+      <div>
+        <button class="pure-button button-main" data-kj-page-go="two">Page two</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="jquery-1.11.1.min.js">
+  </script>
+  <script src="jquery.ui.touch.js">
+  </script>
+  <script src="app.js">
+  </script>
+
+</body>
+
+</html>
