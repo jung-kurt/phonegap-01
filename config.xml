@@ -9,6 +9,8 @@ id="com.colloquiki.phonegap01" versionCode="10" version="0.1">
     An example for phonegap build docs.
   </description>
 
+  <gap:platform name="android" />
+
   <author>
     Kurt Jung
   </author>
