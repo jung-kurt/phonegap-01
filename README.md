@@ -1,6 +1,6 @@
-phonegap-01
-===========
+PhoneGap Example 1
+==================
 
-This project is based on a [tutorial][1] by Christophe Coenraets that covers the development of a PhoneGap application.
+This project is a simple [PhoneGap][1] application.
 
-[1]: http://coenraets.org/blog/phonegap-tutorial/
+[1]: http://phonegap.com/
