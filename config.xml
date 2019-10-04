@@ -13,7 +13,7 @@ id="com.colloquiki.phonegap01" versionCode="10" version="0.3">
 
   <preference name="permissions" value="none" />
   
-  <preference name="android-targetSdkVersion" value="28" />
+  <preference name="phonegap-version" value="cli-9.0.0" />
 
   <author>
     Kurt Jung
